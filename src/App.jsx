@@ -1,16 +1,14 @@
-import { useState } from 'react'
-import './App.css'
-import Navbar from './components/Navbar'
-import MemeComponent from './components/MemeComponent'
+import React from "react";
+import "./App.css";
+import Header from "./components/Header";
+import Meme from "./components/Meme";
 
 function App() {
-
   return (
-    <>
-      <Navbar />
-      <MemeComponent />
-    </>
-  )
+    <div className="App">
+      <Header />
+      <Meme />
+    </div>
+  );
 }
-
-export default App
+export default App;
